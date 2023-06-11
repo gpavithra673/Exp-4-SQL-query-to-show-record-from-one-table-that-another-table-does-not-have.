@@ -56,13 +56,13 @@ values (7,'Chief heads',5,150000);
 insert into office2(Sno,Department,No_of_workers,avg_salary_pm)
 values (8,'Law persuit',7,55000);
 
-select Department from office1
+select *from office1
 where Department not in 
   (select Department
   from office2);
   
 ```
 ## OUTPUT:
-![image](https://github.com/gpavithra673/Exp-4-SQL-query-to-show-record-from-one-table-that-another-table-does-not-have./assets/93427264/0e3a11da-b056-4785-b505-f525c9af84f1)
+![image](https://github.com/gpavithra673/Exp-4-SQL-query-to-show-record-from-one-table-that-another-table-does-not-have./assets/93427264/6dacdf88-1e4a-45d6-81d9-8dbb581f206d)
 ## RESULT:
 ### Thus we have successfully obtained the required result using the above-given code.
